@@ -18,7 +18,7 @@ public class principal_windows extends JFrame {
     private JButton button2;
     private JButton button3;
     private JButton btnGarray;
-    private int bandera=0;
+
 
 
     public principal_windows(){
@@ -48,7 +48,7 @@ public class principal_windows extends JFrame {
 
             if(e.getSource().equals(button1)){
                 new_client alta = new new_client();
-                //setEnabled(false);
+
 
             }
 
@@ -88,9 +88,6 @@ public class principal_windows extends JFrame {
                         setEnabled(false);
 
                         /**NOTA: mejorar la condicion para que aparezca este mensaje*/
-                        if(i==banco.clientes.size()){
-                            JOptionPane.showMessageDialog(principal_windows.this,"no se encontro ninguna cuenta");
-                        }
                     }
                 }
             }
