@@ -11,7 +11,7 @@ public class banco {
 
     static Scanner leer = new Scanner(System.in);
 
-    public static ArrayList<data> clientes = new ArrayList<>();
+    public static ArrayList<data> clientes = new ArrayList();
 
 
     public static void main(String[] args) throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
